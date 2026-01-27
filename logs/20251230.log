@@ -1,0 +1,51 @@
+
+2025-12-30 14:10:23,912 - INFO - log_util - 56 - 接口自动化测试开始
+2025-12-30 14:10:23,912 - INFO - log_util - 58 - 接口自动化测试结束
+2025-12-30 14:13:33,277 - INFO - test_login - 19 - 开始执行用例：全部参数正确登录成功
+2025-12-30 14:13:33,381 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:13:33,386 - INFO - test_login - 19 - 开始执行用例：username为空其他数据正确登录失败
+2025-12-30 14:13:33,459 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:13:33,463 - INFO - test_login - 19 - 开始执行用例：password为空其他数据正确登录失败
+2025-12-30 14:13:33,532 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:13:33,534 - INFO - test_login - 19 - 开始执行用例：用户名密码不匹配登录失败
+2025-12-30 14:13:33,596 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:13:33,598 - INFO - test_login - 19 - 开始执行用例：username少参登录失败
+2025-12-30 14:13:33,671 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:13:33,675 - INFO - test_login - 19 - 开始执行用例：username参数错误登录失败
+2025-12-30 14:13:33,736 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:14:43,798 - INFO - test_login - 19 - 开始执行用例：全部参数正确登录成功
+2025-12-30 14:14:43,920 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:14:43,924 - INFO - test_login - 19 - 开始执行用例：username为空其他数据正确登录失败
+2025-12-30 14:14:44,063 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:14:44,067 - INFO - test_login - 19 - 开始执行用例：password为空其他数据正确登录失败
+2025-12-30 14:14:44,173 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:14:44,176 - INFO - test_login - 19 - 开始执行用例：用户名密码不匹配登录失败
+2025-12-30 14:14:44,297 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:14:44,306 - INFO - test_login - 19 - 开始执行用例：username少参登录失败
+2025-12-30 14:14:44,448 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:14:44,454 - INFO - test_login - 19 - 开始执行用例：username参数错误登录失败
+2025-12-30 14:14:44,741 - INFO - test_login - 22 - <Response [200]>
+2025-12-30 14:15:35,165 - INFO - test_login - 19 - 开始执行用例：全部参数正确登录成功
+2025-12-30 14:15:35,259 - INFO - test_login - 22 - {"code": 0, "msg": "登录成功", "token": "852bbdc5a0f959444ae81ab164bafa9d"}
+2025-12-30 14:15:35,263 - INFO - test_login - 19 - 开始执行用例：username为空其他数据正确登录失败
+2025-12-30 14:15:35,325 - INFO - test_login - 22 - {"code": -1, "msg": "username这个字段是必填项。"}
+2025-12-30 14:15:35,329 - INFO - test_login - 19 - 开始执行用例：password为空其他数据正确登录失败
+2025-12-30 14:15:35,406 - INFO - test_login - 22 - {"code": -1, "msg": "password这个字段是必填项。"}
+2025-12-30 14:15:35,408 - INFO - test_login - 19 - 开始执行用例：用户名密码不匹配登录失败
+2025-12-30 14:15:35,481 - INFO - test_login - 22 - {"code": -1, "msg": "密码错误！"}
+2025-12-30 14:15:35,484 - INFO - test_login - 19 - 开始执行用例：username少参登录失败
+2025-12-30 14:15:35,567 - INFO - test_login - 22 - {"code": -1, "msg": "username这个字段是必填项。"}
+2025-12-30 14:15:35,572 - INFO - test_login - 19 - 开始执行用例：username参数错误登录失败
+2025-12-30 14:15:35,681 - INFO - test_login - 22 - {"code": -1, "msg": "username这个字段是必填项。"}
+2025-12-30 14:32:47,279 - INFO - test_login - 24 - 开始执行用例：全部参数正确登录成功
+2025-12-30 14:32:47,358 - INFO - test_login - 28 - {"code": 0, "msg": "登录成功", "token": "852bbdc5a0f959444ae81ab164bafa9d"}
+2025-12-30 14:32:47,368 - INFO - test_login - 24 - 开始执行用例：username为空其他数据正确登录失败
+2025-12-30 14:32:47,431 - INFO - test_login - 28 - {"code": -1, "msg": "username这个字段是必填项。"}
+2025-12-30 14:32:47,439 - INFO - test_login - 24 - 开始执行用例：password为空其他数据正确登录失败
+2025-12-30 14:32:47,517 - INFO - test_login - 28 - {"code": -1, "msg": "password这个字段是必填项。"}
+2025-12-30 14:32:47,525 - INFO - test_login - 24 - 开始执行用例：用户名密码不匹配登录失败
+2025-12-30 14:32:47,677 - INFO - test_login - 28 - {"code": -1, "msg": "密码错误！"}
+2025-12-30 14:32:47,690 - INFO - test_login - 24 - 开始执行用例：username少参登录失败
+2025-12-30 14:32:47,751 - INFO - test_login - 28 - {"code": -1, "msg": "username这个字段是必填项。"}
+2025-12-30 14:32:47,773 - INFO - test_login - 24 - 开始执行用例：username参数错误登录失败
+2025-12-30 14:32:47,834 - INFO - test_login - 28 - {"code": -1, "msg": "username这个字段是必填项。"}

@@ -1,0 +1,2 @@
+INFO     root:test_login.py:24 开始执行用例：password为空其他数据正确登录失败
+INFO     root:test_login.py:28 {"code": -1, "msg": "password这个字段是必填项。"}
